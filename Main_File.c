@@ -1,7 +1,19 @@
+//-----------------------------------------------------------------------------------------------------------------------------------//
+//        Project Title: User_Defined_Header_File
+//
+//        Description  : -> Attached "My_Header.h" file which is a user defined header file provides function prototypes, 
+//                          variable declarations, structure and union declarations, user defined MACROS.
+//                       -> Preprocessor includes these files by checking the .h file in current directory and gives the 
+//                          necessary things as needed by this program.
+//
+//        Author       : Amol R. Mane
+//        Date         : 16 August 2025
+//-----------------------------------------------------------------------------------------------------------------------------------//
+
 #include<stdio.h>
 
 // This is user defined header which is present inside another .h file
-#include "My_Header"
+#include "My_Header.h"
 
 int main()
 {
