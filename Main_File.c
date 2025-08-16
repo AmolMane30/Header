@@ -31,13 +31,13 @@ int main()
   printf("No: %d\n",No);
   printf("f : %f\n",f);
   printf("ch : %c\n",ch);
-  printf("i : %d\n",i);
+  printf("i : %d\n\n",i);
 
   printf("X : %d\n",dobj.X);
   printf("Y : %f\n",dobj.Y);
   printf("Z : %c\n",dobj.Z);
 
-  printf("Size of Structure is : %d bytes.\n",sizeof(dobj));
+  printf("Size of Structure is : %ld bytes.\n",sizeof(dobj));
 
   return 0;
 }
